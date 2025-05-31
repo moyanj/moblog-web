@@ -4,9 +4,12 @@ import { ElButton } from 'element-plus';
 </script>
 
 <template>
-    <ElButton type="primary">
-        <RouterLink to="/">Home</RouterLink>
-    </ElButton>
+    <div class="bg-blue-200">
+        <h1>Home</h1>
+    </div>
+    <el-button type="primary">
+        <RouterLink to="/about">About</RouterLink>
+    </el-button>
     <RouterView />
 </template>
 

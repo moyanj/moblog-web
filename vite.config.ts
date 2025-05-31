@@ -9,9 +9,9 @@ import ElementPlus from 'unplugin-element-plus/vite'
 export default defineConfig({
     plugins: [
         vue(),
-        vueDevTools(),
         tailwindcss(),
-        ElementPlus(),
+        ElementPlus({}),
+        vueDevTools(),
     ],
     resolve: {
         alias: {
